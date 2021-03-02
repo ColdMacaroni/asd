@@ -3,11 +3,12 @@
 # suits abstract
 # Dago
 
-def suits(partial_history)
+
+def suits(partial_history):
     """Requires the last items of suit history. >=1"""
-    
+
     global SUITS_DICT
-    
+
     # Take the first character
     choice = input("Next suit? ").strip().lower()[0]
 
