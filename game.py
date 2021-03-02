@@ -24,7 +24,6 @@ def setup_cards():
     return deck
 
 deck = setup_cards()
-
 suit_history = []
 HISTORY_MAX = 6
 
@@ -39,10 +38,11 @@ for i in range(0, HISTORY_MAX):
     # Pick card
     suit_history.append(deck.pop())
 
-# Set up loop
+# Set up loop variables
 balance = 100
 playing = True
 
+# Main game loop
 while playing and balance > 0:
     if len(deck) <= 0:
         deck = setup_cards()
