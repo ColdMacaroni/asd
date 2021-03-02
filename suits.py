@@ -1,7 +1,7 @@
 ##
 # suits.py
 # suits abstract
-# Dago
+# Dago wrotten Dago abstracted
 
 
 def suits(partial_history):
